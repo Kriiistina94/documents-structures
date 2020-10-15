@@ -8,7 +8,7 @@ Explication de [git](https://git-scm.com/book/en/v1/) en ligne.
 # Appuyer sur le bouton fork depuis https://github.com/ruthrapr/documents-structures
 # Dans un terminal
 git clone https://github.com/VOTRE-NOM-UTILISATEUR/documents-structures
-
+#Depuis le dossier cloné
 git remote add upstream https://github.com/ruthrapr/documents-structures
 ```
 
