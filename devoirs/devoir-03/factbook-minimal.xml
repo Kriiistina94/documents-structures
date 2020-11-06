@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="factbook-minimal.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<mondial>
+    <continent id="A9867" name="Asie"></continent>
+    <country id="CH5874" name="Chine" gdp_total="1100000000" gdp_agri="58447800054">
+        <name>Chine</name>
+        <city longitude="147" latitude="584">
+            <name>Shangai</name>
+            <population xmlns="inalco:documents-structures:ns">9000000000</population>
+        </city>
+    </country>
+</mondial>
