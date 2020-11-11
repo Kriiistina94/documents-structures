@@ -1,0 +1,22 @@
+1. /pvd_liste
+2. /pdv_liste/child::*
+3. /pdv_liste/pdv/ville/text()
+4. /pdv_liste/pdv[position()=46]
+5. /pdv_liste/child::pdv/prix[last()]
+6. /pdv_liste/pdv[@id="3150005"]
+7. //pdv/services[service[not(contains(text(), 'GPL'))]]
+8. //pdv/adresse/following-sibling::*
+9. /pdv_liste/pdv[@cp="16170"]/ville
+10. /pdv_liste/pdv/ouverture[@saufjour="Lundi"]
+11. /pdv_liste/pdv/services/service[contains(text(),'Relais colis')]
+12. //pdv/services/service[position()=10 and contains(text(), 'Piste poids lourds')]
+13. pdv_liste/pdv/rupture[@nom="SP95"][starts-with(@début, "2013-02-04")]
+14. //pdv[fermeture=""]
+15. //pdv[ville='La Mure'and prix[contains(@nom,'E10')]]
+16. /pdv_liste/count(pdv)
+17. //pdv/adresse/string-length(text()) 
+18. max(//pdv/adresse/string-length(text())) -> La fonction max() est définie dans XPath 2.0 
+19. pdv_liste/pdv/ouverture[@fin != "20:00"]
+20. //prix[translate(attribute::nom, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')] ou prix[lower-case(attribute::nom)]
+21.
+22.
