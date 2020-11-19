@@ -1,3 +1,4 @@
+Xpath - 1
 1. /pvd_liste
 2. /pdv_liste/child::*
 3. /pdv_liste/pdv/ville/text()
@@ -20,3 +21,16 @@
 20. //prix[translate(attribute::nom, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')] ou prix[lower-case(attribute::nom)]
 21.
 22.
+
+Xpath - 2
+
+1. //juicer[@type="centrifugal"]/name/string()
+2. ('Juiceman Jr.' ,'Omega Juicer')[last()]
+3. ('Juiceman Jr.' ,'Omega Juicer')[1]
+4. //juicer/name/string()
+5. //juicer[@id="juiceman-jr"]/position()
+6. 
+7.
+8. (5, 6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25)
+9. (5, 6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25)[ ends-with(string(), '5') or ends-with(string(), '0')]
+
